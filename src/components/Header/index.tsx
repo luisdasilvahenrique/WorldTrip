@@ -8,7 +8,7 @@ export default function () {
       as="header"
       mx="auto"
       px="1rem"
-      h={["50px", "100px"]}
+      h={["50px", "75px", "100px"]}
       align="center"
       justify="center"
     >

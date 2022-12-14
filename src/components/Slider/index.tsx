@@ -44,6 +44,26 @@ export default function Slider(){
                     </Flex>
                 </SwiperSlide>
 
+                <SwiperSlide>
+                    <Flex
+                    w="100%"
+                    h="100%"
+                    align="center"
+                    justify="center"
+                    direction="column"
+                    bgImage="url(/europa.png)"
+                    bgRepeat="no-repeat"
+                    bgSize="cover"
+                    textAlign="center"
+                    bgPosition="100% 30%"
+                    >
+                        <Link href="/continent/europe">
+                                <Heading>Europa</Heading>
+                                <Text>O continente mais antigo</Text>
+                        </Link>
+                    </Flex>
+                </SwiperSlide>
+
             </Swiper>
         </Flex>
     );

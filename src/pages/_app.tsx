@@ -6,6 +6,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
+import '../../styles/styles.scss';
+
 export default function App({ Component, pageProps }: AppProps) {
   return(
     <ChakraProvider theme={theme}>

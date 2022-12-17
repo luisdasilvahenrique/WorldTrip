@@ -1,4 +1,5 @@
 import { Grid, Text } from "@chakra-ui/react";
+import Cities from "../Cities";
 import Infos from "./Infos";
 // import Infos from "./Infos";
 
@@ -19,8 +20,9 @@ export default function Content() {
         divide-se da Ásia a leste pela divisória de águas dos montes Urais, o
         rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
       </Text>
-      
-      <Infos /> 
+
+      <Infos />
+       
       
     </Grid>
   );
